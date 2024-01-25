@@ -5,11 +5,11 @@
 2. Run ```python -m pip install -r requirements.txt```
 
 ### To-Do List
-:pencil2: - Set Up the To-Do Project
+:heavy_check_mark: - Set Up the To-Do Project
 <br/>
-:construction: - Set Up the To-Do CLI App with Python and Typer
+:heavy_check_mark: - Set Up the To-Do CLI App with Python and Typer
 <br/>
-:construction: - Prepare the To-Do Database for Use
+:pencil2: - Prepare the To-Do Database for Use
 <br/>
 :construction: - Set Up the To-Do App Back End
 <br/>
