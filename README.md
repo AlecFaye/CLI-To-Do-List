@@ -13,9 +13,9 @@
 <br/>
 :heavy_check_mark: - Set Up the To-Do App Back End
 <br/>
-:pencil2: - Code the Adding and Listing To-Dos Functionalities
+:heavy_check_mark: - Code the Adding and Listing To-Dos Functionalities
 <br/>
-:construction: - Code the To-Do Completion Functionality
+:pencil2: - Code the To-Do Completion Functionality
 <br/>
 :construction: - Code the Remove To-Dos Functionality
 <br/>
