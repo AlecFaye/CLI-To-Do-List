@@ -13,7 +13,7 @@ def init(
     db_path: str = typer.Option(
         str(database.DEFAULT_DB_FILE_PATH),
         "--db-path",
-        "db",
+        "-db",
         prompt="to-do database location?",
     )
 ) -> None:
@@ -24,12 +24,12 @@ def init(
             fg=typer.colors.RED,
         )
         raise typer.Exit(1)
-    
+        
     db_init_error = database.init_database(Path(db_path))
     if db_init_error:
         typer.secho(
-            f'Creating databse failed with "{ERRORS[db_init_error]}"',
-            fg=typer.colors.RED
+            f'Creating database failed with "{ERRORS[db_init_error]}"',
+            fg=typer.colors.RED,
         )
         raise typer.Exit(1)
     else:

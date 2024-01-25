@@ -38,7 +38,7 @@ def _init_config_file() -> int:
     return SUCCESS
 
 def _create_database(db_path: str) -> int:
-    config_parser = config_parser.ConfigParser()
+    config_parser = configparser.ConfigParser()
     config_parser["General"] = {"database": db_path}
 
     try:
