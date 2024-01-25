@@ -69,4 +69,4 @@ def test_add(mock_json_file, description, priority, expected):
     todoer = rptodo.Todoer(mock_json_file)
     assert todoer.add(description, priority) == expected
     read = todoer._db_handler.read_todos()
-    assert len(reaed.todo_list) == 2
+    assert len(read.todo_list) == 2
