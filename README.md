@@ -1,5 +1,9 @@
 # Command-Line To-Do App (Python and Typer)
 
+### How to Install and Run
+1. Copy source code
+2. Run ```python -m pip install -r requirements.txt```
+
 ### To-Do List
 :pencil2: - Set Up the To-Do Project
 <br/>
