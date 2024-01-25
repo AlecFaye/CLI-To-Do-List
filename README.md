@@ -9,11 +9,11 @@
 <br/>
 :heavy_check_mark: - Set Up the To-Do CLI App with Python and Typer
 <br/>
-:pencil2: - Prepare the To-Do Database for Use
+:heavy_check_mark: - Prepare the To-Do Database for Use
 <br/>
-:construction: - Set Up the To-Do App Back End
+:heavy_check_mark: - Set Up the To-Do App Back End
 <br/>
-:construction: - Code the Adding and Listing To-Dos Functionalities
+:pencil2: - Code the Adding and Listing To-Dos Functionalities
 <br/>
 :construction: - Code the To-Do Completion Functionality
 <br/>
