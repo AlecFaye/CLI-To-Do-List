@@ -1,5 +1,3 @@
-"""This module provides the RP To-DO CLI"""
-
 from typing import Optional
 
 import typer
