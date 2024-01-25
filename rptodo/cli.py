@@ -2,7 +2,7 @@ from typing import Optional
 
 import typer
 
-from cli_todo import __app_name__, __version__
+from rptodo import __app_name__, __version__
 
 app = typer.Typer()
 
