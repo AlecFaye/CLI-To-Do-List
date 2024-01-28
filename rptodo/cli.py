@@ -108,6 +108,24 @@ def list_all() -> None:
         )
     typer.secho("-" * len(headers) + "\n", fg=typer.colors.BLUE)
 
+"""Complete to-do list item."""
+@app.command(name="complete")
+def set_done(todo_id: int = typer.Argument(...)) -> None:
+    todoer = get_todoer()
+    todo, error = todoer.set_done(todo_id)
+
+    if error:
+        typer.secho(
+            f'Completing to-do # "{todo_id}" failed with "{ERRORS[error]}"',
+            fg=typer.colors.RED,
+        )
+        raise typer.Exit(1)
+    else:
+        typer.secho(
+            f"""to-do # {todo_id} "{todo['Description']}" completed!""",
+            fg=typer.colors.GREEN,
+        )
+
 # Prints the application's name and version using echo
 def _version_callback(value: bool) -> None:
     if value:
