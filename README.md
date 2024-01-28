@@ -15,9 +15,9 @@
 <br/>
 :heavy_check_mark: - Code the Adding and Listing To-Dos Functionalities
 <br/>
-:pencil2: - Code the To-Do Completion Functionality
+:heavy_check_mark: - Code the To-Do Completion Functionality
 <br/>
-:construction: - Code the Remove To-Dos Functionality
+:pencil2: - Code the Remove To-Dos Functionality
 <br/>
 
 ### Legend

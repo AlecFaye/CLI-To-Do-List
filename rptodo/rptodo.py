@@ -50,7 +50,7 @@ class Todoer:
         except IndexError:
             return CurrentTodo({}, ID_ERROR)
         
-        todo["Done"] = true
+        todo["Done"] = True
 
         write = self._db_handler.write_todos(read.todo_list)
 
